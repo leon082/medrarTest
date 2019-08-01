@@ -123,7 +123,7 @@ public class Simulator {
 
             for (int j = chairs[i].length - 1; j >= 0; j--) {
                 System.out.print(
-                        (chairs[i][j].isState() ? chairs[i][j].getColumn() + "" + chairs[i][j].getRow() : "X") + "\t"
+                        (chairs[i][j].isState() ? chairs[i][j].getColumn() + "" + chairs[i][j].getRow() : "N/A") + "\t"
                 ); // Tabulador
             }
             System.out.print("\n"); // Salto de Línea
